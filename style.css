@@ -1,0 +1,166 @@
+
+
+/* =============== */
+/* Base (global)   */
+/* =============== */
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #061514;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    padding: 24px 12px;
+  }
+  
+  /* Conteneur "téléphone" */
+  .phone {
+    width: 390px;
+    max-width: 100%;
+    min-height: 760px;
+    background: linear-gradient(180deg, #071c1b, #051110);
+    border: 1px solid rgba(255, 255, 255, 0.10);
+    border-radius: 24px;
+    overflow: hidden;
+    box-shadow: 0 24px 80px rgba(0, 0, 0, 0.55);
+  }
+  
+  /* =============== */
+  /* Header          */
+  /* =============== */
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    padding: 16px 16px;
+  }
+  
+  /* Burger icon */
+  .header__burger {
+    width: 44px;
+    height: 44px;
+    border-radius: 14px;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    background: rgba(255, 255, 255, 0.06);
+    display: flex;flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    cursor: pointer;
+  }
+  
+  .header__burger span {
+    display: block;
+    width: 18px;
+    height: 2px;
+    background: rgba(255, 255, 255, 0.85);
+    margin: 2px 0;
+    border-radius: 2px;
+  }
+  
+  /* Logo */
+  .header__logo {
+    text-align: center;
+    line-height: 1;
+  }
+  
+  .logo-aegis {
+    letter-spacing: 0.2em;
+    font-weight: 800;
+    font-size: 12px;
+    opacity: 0.95;
+  }
+  
+  .logo-bank {
+    display: block;
+    letter-spacing: 0.35em;
+    font-weight: 700;
+    font-size: 11px;
+    opacity: 0.65;
+    margin-top: 4px;
+  }
+  
+  /* Actions */
+  .header__actions {
+    display: flex;
+    gap: 8px;
+  }
+  
+  /* Buttons */
+  .btn {
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 10px 12px;
+    border-radius: 999px;
+    border: 1px solid rgba(255, 255, 255, 0.14);
+    display: inline-block;
+  }
+  
+  .btn-primary {
+    background: #1ddbd2;
+    color: #052222;
+    border-color: rgba(29, 219, 210, 0.55);
+  }
+  
+  .btn-secondary {
+    background: rgba(255, 255, 255, 0.06);
+    color: rgba(255, 255, 255, 0.92);
+  }
+  
+  /* =============== */
+  /* Hero / Main     */
+  /* =============== */
+  .hero {
+    padding: 18px 16px 26px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+  
+  .hero h1 {
+    margin: 10px 0 6px;
+    font-size: 44px;
+    line-height: 1.02;
+    letter-spacing: -0.02em;
+  }
+  
+  .hero h2 {
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.55;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.72);
+    max-width: 42ch;
+  }
+  
+  /* Card (promo) */
+  .card {
+    margin-top: 6px;
+    padding: 14px 14px;
+    border-radius: 18px;
+    border: 1px solid rgba(29, 219, 210, 0.25);
+    background: rgba(255, 255, 255, 0.06);
+  }
+  
+  .card h3 {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 800;
+  }
+  
+  .card--sale {
+    box-shadow: 0 14px 40px rgba(0, 0, 0, 0.35);
+  }
+  
+  /* CTA */
+  .cta {
+    margin-top: 6px;
+    text-de
+  
+  
