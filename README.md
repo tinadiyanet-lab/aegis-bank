@@ -1,7 +1,3 @@
-Très bien. Voilà un README simple, clair, crédible, que tu peux assumer comme étant le tien.
-Pas prétentieux. Pas trop scolaire. Juste pro.
-
-Tu peux copier-coller tel quel dans README.md.
 
 # Aegis Bank – Landing Page (Q1)
 
