@@ -8,7 +8,7 @@ Le projet est conçu en **mobile-first**, sous la forme d’une interface inspir
 
 ---
 
-## 🎯 Objectif du projet
+##  Objectif du projet
 
 - Structurer une page web en HTML5 sémantique
 - Appliquer une organisation CSS claire et lisible
@@ -18,7 +18,7 @@ Le projet est conçu en **mobile-first**, sous la forme d’une interface inspir
 
 ---
 
-## 🛠️ Technologies utilisées
+##  Technologies utilisées
 
 - HTML5  
 - CSS3 (sans framework)
@@ -27,7 +27,7 @@ Le projet est conçu en **mobile-first**, sous la forme d’une interface inspir
 
 ---
 
-## 📐 Structure du projet
+##  Structure du projet
 
 - `index.html` : structure sémantique de la page  
 - `style.css` : styles, organisation visuelle et animations légères  
@@ -35,7 +35,7 @@ Le projet est conçu en **mobile-first**, sous la forme d’une interface inspir
 
 ---
 
-## 🎨 Choix UX & UI
+##  Choix UX & UI
 
 - Design **mobile-first**
 - Hiérarchie claire de l’information
@@ -45,7 +45,7 @@ Le projet est conçu en **mobile-first**, sous la forme d’une interface inspir
 
 ---
 
-## 🚀 Déploiement
+##  Déploiement
 
 Le projet est déployé en ligne via **Netlify**.
 
