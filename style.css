@@ -121,7 +121,7 @@ body {
 /* ====================== */
 
 .hero {
-  padding: 18px 16px 26px;
+  padding: 18px 16px 10px;
   display: flex;
   flex-direction: column;
   gap: 14px;
@@ -149,9 +149,13 @@ body {
 .card {
   margin-top: 6px;
   padding: 14px;
-  border-radius: 18px;
+  border-radius: 999px;
   border: 1px solid rgba(29, 219, 210, 0.25);
-  background: rgba(255, 255, 255, 0.06);
+  background: rgba(255, 255, 255, 0.03);
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  width: fit-content;
 }
 
 .card h3 {
@@ -161,7 +165,7 @@ body {
 }
 
 .card--sale {
-  box-shadow: 0 14px 40px rgba(0, 0, 0, 0.35);
+  box-shadow: 0 14px 40px rgba(0, 0, 0, 0.25);
 }
 
 /* ====================== */
@@ -174,22 +178,24 @@ body {
   text-decoration: none;
   font-weight: 800;
   padding: 16px;
-  border-radius: 18px;
+  border-radius: 999px;
   background: #1ddbd2;
   color: #052222;
   border: 1px solid rgba(29, 219, 210, 0.55);
-  transition: background 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 16px 60px rgba(29, 219, 210, 0.25);
+  transition: background 0.25s ease, transform 0.2s ease, color 0.25s ease;
 }
 
-/* Animation au survol */
+/* Hover = devient gris (comme tu veux) */
 .cta:hover {
-  background: #14b5ad;
+  background: #6f6f6f;
+  color: #ffffff;
   transform: translateY(-2px);
 }
 
-/* Animation au clic */
+/* Clic = petit effet appuyé (optionnel) */
 .cta:active {
-  transform: scale(0.97);
+  transform: scale(0.98);
 }
 
 /* ====================== */
@@ -197,13 +203,46 @@ body {
 /* ====================== */
 
 .footer {
-  padding: 16px;
+  padding: 0 16px 18px;
   text-align: center;
 }
 
+/* Icônes rondes comme l'image */
+.social {
+  margin-top: 28px;
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+}
+
+.social__icon {
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.08);
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+}
+
+/* Texte sous les icônes : TELEGRAM • MASTODON • BLUESKY */
+.social__names {
+  margin-top: 10px;
+  font-size: 10px;
+  letter-spacing: 0.22em;
+  color: rgba(255, 255, 255, 0.55);
+}
+
+/* Mentions légales centrées */
 .footer__legal {
+  display: inline-block;
+  margin-top: 14px;
   font-size: 12px;
-  color: rgba(255, 255, 255, 0.65);
+  color: rgba(255, 255, 255, 0.45);
   text-decoration: underline;
-  cursor: pointer;
 }
