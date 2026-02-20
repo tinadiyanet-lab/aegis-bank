@@ -50,11 +50,11 @@ Le projet est conçu en **mobile-first**, sous la forme d’une interface inspir
 Le projet est déployé en ligne via **Netlify**.
 
 🔗 Lien du site :  
-*(ajouter ici ton lien Netlify)*
+https://sunny-zuccutto-722b3a.netlify.app/#
 
 ---
 
 ## 👩‍💻 Auteur
 
-Projet réalisé par **Tina**  
+Projet réalisé par **Tina Diyanet**  
 Dans le cadre de la formation UX web .
